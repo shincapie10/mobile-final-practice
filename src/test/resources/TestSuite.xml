@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile App Test Suite">
+    <test name="Navigation Tests">
+        <classes>
+            <class name="com.swaglabsm.tests.NavigationBottomMenuTest" />
+        </classes>
+    </test>
+    <test name="Authentication Tests">
+        <classes>
+            <class name="com.swaglabsm.tests.LoginTest" />
+            <class name="com.swaglabsm.tests.SignUpTest" />
+        </classes>
+    </test>
+    <test name="Interaction Tests">
+        <classes>
+            <class name="com.swaglabsm.tests.SwipeTest" />
+        </classes>
+    </test>
+</suite>
